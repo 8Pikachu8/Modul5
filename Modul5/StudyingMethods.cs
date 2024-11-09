@@ -188,5 +188,17 @@ namespace Modul5
                 Echo(modif, deep - 1);
             }
         }
+
+        internal static int PowerUp(int N, byte pow)
+        {
+            if(pow == 0)
+            {
+                return 1;
+            }
+            else
+            {
+                return N * PowerUp(N, (byte)(pow - 1));
+            }
+        }
     }
 }

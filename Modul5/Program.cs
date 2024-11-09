@@ -2,4 +2,4 @@
 
 using Modul5;
 
-StudyingMethods.Echo("АУ АУ АУ АУ", 14);
+Console.WriteLine( StudyingMethods.PowerUp(3, 5));
